@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .main {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .card {
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    margin: 0 16px;
+  }
+
+  .imagen {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+a:hover {
+  background-color: red;
+  
+}
+
+  h2 {
+    padding-bottom: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .texto {
+    padding-bottom: 20px;
+    color: hsl(215, 51%, 70%);
+  }
+
+  .etherum {
+    color: hsl(178, 100%, 50%);
+    margin-left: 5px;
+  }
+
+  .reloj {
+    margin-left: 120px;
+    margin-right: 7px;
+  }
+
+  .tiempo {
+    color: hsl(215, 51%, 70%);
+  }
+
+  .datos {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid  hsl(215, 51%, 70%);
+    margin-bottom: 20px;
+  }
+
+  .usuario {
+    display: flex;
+    align-items: center;
+  }
+
+  .foto-perfil {
+    border: 2px solid white;
+    border-radius: 50px;
+    height: 40px;
+    margin-right: 20px;
+  }
+
+  a  {
+    color: white;
+    cursor: pointer;
+  }
+
